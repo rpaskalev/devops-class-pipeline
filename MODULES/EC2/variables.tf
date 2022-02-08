@@ -18,9 +18,7 @@ variable "vpc_security_group" {
     default = null
 }
 
-variable "instance_profile" {
-    default = null
-}
+variable "instance_profile" {}
 
 variable "key_name" {
   default = "devops-class-key"
