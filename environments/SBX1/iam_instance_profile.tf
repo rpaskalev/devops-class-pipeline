@@ -1,4 +1,4 @@
-module "iam_ip" {
+module "iam" {
     source = "../../MODULES/IAM"
     environment = var.environment
 }
